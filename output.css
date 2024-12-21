@@ -1,0 +1,19 @@
+/* Error: Private members can't be accessed from outside their modules.
+ *     ,
+ * 320 | @include functions._assert-ascending($grid-breakpoints, "$grid-breakpoints");
+ *     |                    ^^^^^^^^^^^^^^^^^
+ *     '
+ *   scss\bootstrap\scss\_variables.scss 320:20  @use
+ *   scss\bootstrap\scss\_accordion.scss 4:1     @use
+ *   scss\main.scss 1:1                          root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Private members can't be accessed from outside their modules.\a     \2577 \a 320 \2502  @include functions._assert-ascending($grid-breakpoints, \"$grid-breakpoints\");\a     \2502                     ^^^^^^^^^^^^^^^^^\a     \2575 \a   scss\\bootstrap\\scss\\_variables.scss 320:20  @use\a   scss\\bootstrap\\scss\\_accordion.scss 4:1     @use\a   scss\\main.scss 1:1                          root stylesheet";
+}

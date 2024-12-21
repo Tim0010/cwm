@@ -1,0 +1,27 @@
+# Community Service Website (CWM)
+
+CWM is a platform designed to connect communities, empower youth, and drive meaningful social change through various initiatives and programs.
+
+---
+
+## Features
+- **Community Projects**: Showcase initiatives like agriculture training, coding workshops, and social advocacy programs.  
+- **Volunteer Opportunities**: Find ways to contribute to impactful causes.  
+- **Social Media Integration**: Stay connected through our official social platforms.
+
+---
+
+## How to Use
+1. Visit the website to explore projects and events.  
+2. Get involved by signing up for volunteer opportunities.  
+3. Share your feedback to help us grow.
+
+---
+
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Node.js (or relevant backend stack)   
+
+---
+
+**Together, we can create lasting change.**
